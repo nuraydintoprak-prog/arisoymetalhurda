@@ -63,7 +63,8 @@ function shell({ slug, title, desc, breadcrumb, heroTitle, heroDesc, body, extra
 <link rel="preload" href="fonts/poppins-latin-ext-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/poppins-latin-ext-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" as="image" href="img/arisoy-logo.avif" fetchpriority="high">
-<link rel="stylesheet" href="css/style.css">
+<link rel="preload" href="css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="css/style.css"></noscript>
 ${extraHead}<!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -330,11 +331,11 @@ writeFileSync(
       <p class="fsub">Bilgilerinizi girin, talebiniz WhatsApp üzerinden bize ulaşsın.</p>
       <form data-wa>
         <div class="fgrid">
-          <div class="field"><label>Ad Soyad *</label><input type="text" name="ad" placeholder="Adınız Soyadınız" required></div>
-          <div class="field"><label>Telefon *</label><input type="tel" name="tel" placeholder="05__ ___ __ __" required></div>
+          <div class="field"><label for="c-ad">Ad Soyad *</label><input id="c-ad" type="text" name="ad" placeholder="Adınız Soyadınız" required></div>
+          <div class="field"><label for="c-tel">Telefon *</label><input id="c-tel" type="tel" name="tel" placeholder="05__ ___ __ __" required></div>
         </div>
-        <div class="field"><label>Adres / İlçe</label><input type="text" name="adres" placeholder="Örn: Erdemli, Yeni Mahalle"></div>
-        <div class="field"><label>Mesajınız</label><textarea name="mesaj" placeholder="Hurda türü ve miktarı hakkında bilgi verin"></textarea></div>
+        <div class="field"><label for="c-adres">Adres / İlçe</label><input id="c-adres" type="text" name="adres" placeholder="Örn: Erdemli, Yeni Mahalle"></div>
+        <div class="field"><label for="c-mesaj">Mesajınız</label><textarea id="c-mesaj" name="mesaj" placeholder="Hurda türü ve miktarı hakkında bilgi verin"></textarea></div>
         <button type="submit" class="btn btn-wa btn-block btn-lg">${WA_ICON} WhatsApp ile Bilgi İste</button>
         <p class="form-note">Bilgileriniz yalnızca size dönüş yapmak için kullanılır, üçüncü kişilerle paylaşılmaz.</p>
       </form>

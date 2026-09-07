@@ -195,7 +195,8 @@ function page(cat) {
 <link rel="manifest" href="site.webmanifest">
 <link rel="preload" href="fonts/poppins-latin-ext-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/poppins-latin-ext-700.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="css/style.css">
+<link rel="preload" href="css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="css/style.css"></noscript>
 <link rel="preload" as="image" href="img/arisoy-logo.avif" fetchpriority="high">
 <link rel="preload" as="image" href="img/${cat.img}" fetchpriority="high">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Service","serviceType":"${cat.title} Alımı","provider":{"@type":"RecyclingCenter","name":"${BRAND}","telephone":"${PHONE_TEL}"},"areaServed":"Mersin","url":"${DOMAIN}/${cat.slug}.html"}</script>

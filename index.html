@@ -44,11 +44,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230d3b3e' stroke-width='2'%3E%3Cpath d='M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z' fill='%23d99a2b'/%3E%3Cpath d='m9 12 2 2 4-4'/%3E%3C/svg%3E">
 <link rel="manifest" href="site.webmanifest">
 <link rel="preload" as="image" href="img/arisoy-logo.avif" fetchpriority="high">
-<link rel="preload" as="image" href="img/mersin-tesis.avif" fetchpriority="high">
+<link rel="preload" as="image" href="img/mersin-tesis-hero.avif" fetchpriority="high">
 <link rel="preload" href="fonts/poppins-latin-ext-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/poppins-latin-ext-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/poppins-latin-ext-800.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="css/style.css">
+<link rel="preload" href="css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="css/style.css"></noscript>
 <script type="application/ld+json">
 {
   "@context":"https://schema.org",
@@ -138,7 +139,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
     </div>
     <div class="hero-photo reveal">
-      <img src="img/mersin-tesis.avif" alt="Arısoy Metal Mersin hurda ayrıştırma tesisi" width="700" height="420" fetchpriority="high" decoding="async">
+      <img src="img/mersin-tesis-hero.avif" alt="Arısoy Metal Mersin hurda ayrıştırma tesisi" width="900" height="675" fetchpriority="high" decoding="async">
       <div class="hero-float"><b>12</b><span>noktada adrese servis</span></div>
     </div>
   </div>
@@ -267,7 +268,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <section class="sec why">
   <div class="container why-wrap">
     <div class="why-media reveal">
-      <img src="img/mersin-sanayi-hurdasi.avif" alt="Arısoy Metal Geri Dönüşüm Hurdacılık - sanayi hurdası ayrıştırma" width="900" height="600" decoding="async" loading="lazy">
+      <img src="img/mersin-sanayi-hurdasi-thumb.avif" alt="Arısoy Metal Geri Dönüşüm Hurdacılık - sanayi hurdası ayrıştırma" width="900" height="675" decoding="async" loading="lazy">
       <div class="why-badge"><b>7</b><small>Hurda Kategorisinde Uzman</small></div>
     </div>
     <div class="reveal">
@@ -277,19 +278,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="why-list">
         <div class="why-item">
           <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v18M5 7h14M5 7L2 15a4 4 0 008 0L5 7zM19 7l-3 8a4 4 0 008 0l-3-8z"/></svg></span>
-          <div><h4>Şeffaf Tartım</h4><p>Hassas terazilerde, gözünüzün önünde tartım yapılır; sonuç birlikte teyit edilir.</p></div>
+          <div><h3>Şeffaf Tartım</h3><p>Hassas terazilerde, gözünüzün önünde tartım yapılır; sonuç birlikte teyit edilir.</p></div>
         </div>
         <div class="why-item">
           <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg></span>
-          <div><h4>Anında Ödeme</h4><p>Tartım biter bitmez, anlaşılan tutarı yerinde ödüyoruz.</p></div>
+          <div><h3>Anında Ödeme</h3><p>Tartım biter bitmez, anlaşılan tutarı yerinde ödüyoruz.</p></div>
         </div>
         <div class="why-item">
           <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1v6m0 6v10M5 8l-3 3 3 3M19 8l3 3-3 3"/></svg></span>
-          <div><h4>Güncel Piyasa Fiyatı</h4><p>Günlük fiyat değişimlerini takip eder, hurdanızın gerçek değerini öderiz.</p></div>
+          <div><h3>Güncel Piyasa Fiyatı</h3><p>Günlük fiyat değişimlerini takip eder, hurdanızın gerçek değerini öderiz.</p></div>
         </div>
         <div class="why-item">
           <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
-          <div><h4>Hızlı Randevu</h4><p>Erdemli ve çevresinde çoğunlukla aynı gün içinde adresinize geliyoruz.</p></div>
+          <div><h3>Hızlı Randevu</h3><p>Erdemli ve çevresinde çoğunlukla aynı gün içinde adresinize geliyoruz.</p></div>
         </div>
       </div>
     </div>
@@ -305,10 +306,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <p class="sec-sub">Siz sadece bizi arayın, gerisini biz hallederiz.</p>
     </div>
     <div class="steps">
-      <div class="step reveal"><div class="n"></div><h4>Bizi Arayın</h4><p>Hurdanızın türünü ve tahmini miktarını bildirin, güncel fiyat aralığını hemen verelim.</p></div>
-      <div class="step reveal"><div class="n"></div><h4>Randevu Planlayalım</h4><p>Size uygun gün ve saatte adresinize geliriz.</p></div>
-      <div class="step reveal"><div class="n"></div><h4>Yerinde Tartım</h4><p>Hurdanızı hassas terazide, gözünüzün önünde tartarız.</p></div>
-      <div class="step reveal"><div class="n"></div><h4>Anında Ödeme</h4><p>Tartım sonrası anlaşılan tutarı yerinde öderiz.</p></div>
+      <div class="step reveal"><div class="n"></div><h3>Bizi Arayın</h3><p>Hurdanızın türünü ve tahmini miktarını bildirin, güncel fiyat aralığını hemen verelim.</p></div>
+      <div class="step reveal"><div class="n"></div><h3>Randevu Planlayalım</h3><p>Size uygun gün ve saatte adresinize geliriz.</p></div>
+      <div class="step reveal"><div class="n"></div><h3>Yerinde Tartım</h3><p>Hurdanızı hassas terazide, gözünüzün önünde tartarız.</p></div>
+      <div class="step reveal"><div class="n"></div><h3>Anında Ödeme</h3><p>Tartım sonrası anlaşılan tutarı yerinde öderiz.</p></div>
     </div>
   </div>
 </section>
@@ -360,12 +361,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <p class="fsub">Bilgilerinizi girin, talebiniz WhatsApp üzerinden bize ulaşsın.</p>
       <form data-wa>
         <div class="fgrid">
-          <div class="field"><label>Ad Soyad *</label><input type="text" name="ad" placeholder="Adınız Soyadınız" required></div>
-          <div class="field"><label>Telefon *</label><input type="tel" name="tel" placeholder="05__ ___ __ __" required></div>
+          <div class="field"><label for="q-ad">Ad Soyad *</label><input id="q-ad" type="text" name="ad" placeholder="Adınız Soyadınız" required></div>
+          <div class="field"><label for="q-tel">Telefon *</label><input id="q-tel" type="tel" name="tel" placeholder="05__ ___ __ __" required></div>
         </div>
         <div class="fgrid">
-          <div class="field"><label>Hurda Türü</label>
-            <select name="hizmet">
+          <div class="field"><label for="q-hizmet">Hurda Türü</label>
+            <select id="q-hizmet" name="hizmet">
               <option value="">Seçiniz</option>
               <option>Demir-Çelik Hurda</option>
               <option>Bakır Hurda</option>
@@ -377,10 +378,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <option>Karışık Hurda</option>
             </select>
           </div>
-          <div class="field"><label>Tahmini Miktar</label><input type="text" name="miktar" placeholder="Örn: 50 kg, 2 ton"></div>
+          <div class="field"><label for="q-miktar">Tahmini Miktar</label><input id="q-miktar" type="text" name="miktar" placeholder="Örn: 50 kg, 2 ton"></div>
         </div>
-        <div class="field"><label>Adres / İlçe</label><input type="text" name="adres" placeholder="Örn: Erdemli, Yeni Mahalle"></div>
-        <div class="field"><label>Eklemek İstedikleriniz</label><textarea name="mesaj" placeholder="Hurda hakkında eklemek istedikleriniz"></textarea></div>
+        <div class="field"><label for="q-adres">Adres / İlçe</label><input id="q-adres" type="text" name="adres" placeholder="Örn: Erdemli, Yeni Mahalle"></div>
+        <div class="field"><label for="q-mesaj">Eklemek İstedikleriniz</label><textarea id="q-mesaj" name="mesaj" placeholder="Hurda hakkında eklemek istedikleriniz"></textarea></div>
         <button type="submit" class="btn btn-wa btn-block btn-lg">
           <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 00-8.6 15l-1.3 4.9 5-1.3A10 10 0 1012 2zm5.8 14.2c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.1-1.9-.1-.4-.1-1-.3-1.8-.6-3-1.3-5-4.4-5.1-4.6-.2-.2-1.3-1.7-1.3-3.2s.8-2.3 1-2.6c.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .7.5l.9 2.1c.1.2.1.4 0 .6l-.4.6-.4.4c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.6-.1l.9-1c.2-.2.4-.2.6-.1l2 1c.3.1.5.2.5.3.1.2.1.9-.1 1.6z"/></svg>
           WhatsApp ile Bilgi İste
