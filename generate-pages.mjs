@@ -19,7 +19,7 @@ const NAV_ITEMS = [
   ["aku-hurdasi.html", "Akü Hurdası"],
 ];
 
-const DISTRICTS = ["Akdeniz", "Mezitli", "Toroslar", "Yenişehir", "Tarsus", "Erdemli", "Silifke", "Anamur", "Mut", "Gülnar", "Bozyazı"];
+const DISTRICTS = ["Çeşmeli", "Tömük", "Erdemli", "Kocahasanlı", "Limonlu", "Tırtar", "Ayaş", "Kızkalesi", "Susanoğlu", "Silifke", "Taşucu", "Yeşilovacık"];
 
 const WA_ICON = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 00-8.6 15l-1.3 4.9 5-1.3A10 10 0 1012 2zm5.8 14.2c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.1-1.9-.1-.4-.1-1-.3-1.8-.6-3-1.3-5-4.4-5.1-4.6-.2-.2-1.3-1.7-1.3-3.2s.8-2.3 1-2.6c.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .7.5l.9 2.1c.1.2.1.4 0 .6l-.4.6-.4.4c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.6-.1l.9-1c.2-.2.4-.2.6-.1l2 1c.3.1.5.2.5.3.1.2.1.9-.1 1.6z"/></svg>';
 const TEL_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6A19.8 19.8 0 012 4.2 2 2 0 014 2h3a2 2 0 012 1.7c.1 1 .4 2 .7 2.9a2 2 0 01-.4 2.1L8 10a16 16 0 006 6l1.3-1.3a2 2 0 012.1-.4c1 .3 1.9.6 2.9.7A2 2 0 0122 16.9z"/></svg>';
@@ -63,8 +63,25 @@ function shell({ slug, title, desc, breadcrumb, heroTitle, heroDesc, body, extra
 <link rel="preload" href="fonts/poppins-latin-ext-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/poppins-latin-ext-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="css/style.css">
-${extraHead}</head>
+${extraHead}<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WJBPQXL5');</script>
+<!-- End Google Tag Manager -->
+<script src="https://anticlick.com.tr/anticlick.js"
+  data-key="cf_live_3572d85aca8a8d3811595d76ec7d666716b1"
+  data-campaign="yaz-kampanyasi"
+  data-protect-forms="true"
+  data-protect-gtag="true"
+  async></script>
+</head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WJBPQXL5"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <header class="header">
   <div class="container nav">
     <a href="index.html" class="logo" aria-label="Arısoy Metal ana sayfa">
@@ -115,7 +132,7 @@ ${body}
           <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="#d99a2b" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
           Arısoy <span style="color:#d99a2b">Metal</span>
         </span>
-        <p>Akdeniz merkezli, Mersin'in tüm ilçelerinde güvenilir metal hurda alımı yapıyoruz.</p>
+        <p>Erdemli merkezli, Mersin sahil hattında güvenilir metal hurda alımı yapıyoruz.</p>
         <div class="f-soc">
           <a href="https://wa.me/${WA}" aria-label="WhatsApp" target="_blank" rel="noopener">${WA_ICON}</a>
           <a href="tel:${PHONE_TEL}" aria-label="Telefon">${TEL_ICON}</a>
@@ -141,7 +158,7 @@ ${body}
       <div>
         <h4>İletişim</h4>
         <ul class="f-contact">
-          <li>${PIN_ICON}<span>Çankaya Mah. Gazi Mustafa Kemal Bulvarı No:150, Akdeniz / Mersin</span></li>
+          <li>${PIN_ICON}<span>Sahil Caddesi No:150, Erdemli / Mersin</span></li>
           <li>${TEL_ICON}<a href="tel:${PHONE_TEL}">${PHONE_DISPLAY}</a></li>
           <li>${MAIL_ICON}<a href="mailto:info@arisoymetalhurda.com.tr">info@arisoymetalhurda.com.tr</a></li>
           <li>${CLOCK_ICON}<span>Her gün 08:00 - 20:00</span></li>
@@ -155,6 +172,7 @@ ${body}
         <a href="gizlilik-politikasi.html">Gizlilik Politikası</a>
         <a href="cerez-politikasi.html">Çerez Politikası</a>
         <a href="kullanim-sartlari.html">Kullanım Şartları</a>
+        <a href="https://sponsorlureklam.com.tr" target="_blank" rel="noopener">by sponsorlureklam.com.tr</a>
       </span>
     </div>
   </div>
@@ -237,20 +255,20 @@ writeFileSync(
   shell({
     slug: "hakkimizda",
     title: "Hakkımızda",
-    desc: "Arısoy Metal Geri Dönüşüm Hurdacılık hakkında: Akdeniz merkezli, Mersin genelinde doğru tartım ve adil fiyatla hurda metal geri dönüşümü.",
+    desc: "Arısoy Metal Geri Dönüşüm Hurdacılık hakkında: Erdemli merkezli, Mersin genelinde doğru tartım ve adil fiyatla hurda metal geri dönüşümü.",
     breadcrumb: "Hakkımızda",
     heroTitle: "Hakkımızda",
-    heroDesc: "Akdeniz merkezli, Mersin'in tüm ilçelerinde metal hurda geri dönüşümünde güvenilir çözüm ortağınızız.",
+    heroDesc: "Erdemli merkezli, Mersin sahil hattında metal hurda geri dönüşümünde güvenilir çözüm ortağınızız.",
     body: `<section class="content"><div class="container content-grid">
       <div class="prose reveal">
         <p class="lead">Arısoy Metal Geri Dönüşüm Hurdacılık olarak, Mersin'de bireysel ve kurumsal müşterilerimize demir-çelik, bakır, alüminyum, kablo, beyaz eşya, klima ve akü hurdası alım hizmeti sunuyoruz.</p>
         <h2>Kimiz?</h2>
-        <p>Akdeniz merkezli ekibimiz, hurda metal geri dönüşümünü sadece bir alım-satım işi değil, çevreye ve şehrimize katkı olarak görüyor. Her hurda türünü doğru sınıflandırıp, yerinde hassas tartım ile güncel piyasa fiyatı üzerinden değerlendiriyoruz.</p>
+        <p>Erdemli merkezli ekibimiz, hurda metal geri dönüşümünü sadece bir alım-satım işi değil, çevreye ve şehrimize katkı olarak görüyor. Her hurda türünü doğru sınıflandırıp, yerinde hassas tartım ile güncel piyasa fiyatı üzerinden değerlendiriyoruz.</p>
         <h2>Neden Bizi Tercih Etmelisiniz?</h2>
         <div class="feat-grid" style="margin-top:10px">
           <div class="feat"><div class="fi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v18M5 7h14M5 7L2 15a4 4 0 008 0L5 7zM19 7l-3 8a4 4 0 008 0l-3-8z"/></svg></div><h3>Şeffaf Tartım</h3><p>Hassas terazilerde, gözünüzün önünde tartım yapılır; sonuç birlikte teyit edilir.</p></div>
           <div class="feat"><div class="fi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg></div><h3>Anında Ödeme</h3><p>Tartım biter bitmez, anlaşılan tutarı yerinde nakit öderiz.</p></div>
-          <div class="feat"><div class="fi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div><h3>Hızlı Randevu</h3><p>Akdeniz ve çevresinde çoğunlukla aynı gün içinde adresinize geliyoruz.</p></div>
+          <div class="feat"><div class="fi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div><h3>Hızlı Randevu</h3><p>Erdemli ve çevresinde çoğunlukla aynı gün içinde adresinize geliyoruz.</p></div>
         </div>
         <h2>Misyonumuz</h2>
         <p>Hurda metalin çevreye zarar vermeden, katma değere dönüşmesine aracılık ederken; müşterilerimize dürüst, şeffaf ve hızlı bir hizmet deneyimi sunmak temel önceliğimizdir.</p>
@@ -288,13 +306,13 @@ writeFileSync(
     heroDesc: "Sorularınız ve hurda değerlendirme talepleriniz için bize ulaşın, aynı gün içinde dönüş yapalım.",
     body: `<section class="sec"><div class="container cnt-grid">
       <div class="cnt-cards reveal">
-        <div class="cnt-card"><div class="ci">${PIN_ICON.replace("currentColor", "#fff")}</div><div><h4>Adres</h4><p>Çankaya Mah. Gazi Mustafa Kemal Bulvarı No:150, Akdeniz / Mersin</p></div></div>
+        <div class="cnt-card"><div class="ci">${PIN_ICON.replace("currentColor", "#fff")}</div><div><h4>Adres</h4><p>Sahil Caddesi No:150, Erdemli / Mersin</p></div></div>
         <div class="cnt-card"><div class="ci">${TEL_ICON.replace("currentColor", "#fff")}</div><div><h4>Telefon</h4><a href="tel:${PHONE_TEL}">${PHONE_DISPLAY}</a></div></div>
         <div class="cnt-card"><div class="ci">${WA_ICON}</div><div><h4>WhatsApp</h4><a href="https://wa.me/${WA}" target="_blank" rel="noopener">${PHONE_DISPLAY}</a></div></div>
         <div class="cnt-card"><div class="ci">${MAIL_ICON.replace("currentColor", "#fff")}</div><div><h4>E-posta</h4><a href="mailto:info@arisoymetalhurda.com.tr">info@arisoymetalhurda.com.tr</a></div></div>
         <div class="cnt-card"><div class="ci">${CLOCK_ICON.replace("currentColor", "#fff")}</div><div><h4>Çalışma Saatleri</h4><p>Her gün 08:00 - 20:00</p></div></div>
       </div>
-      <div class="map-wrap reveal"><iframe src="https://maps.google.com/maps?q=Akdeniz,%20Mersin&t=&z=13&ie=UTF8&iwloc=&output=embed" loading="lazy" title="Arısoy Metal konum haritası"></iframe></div>
+      <div class="map-wrap reveal"><iframe src="https://maps.google.com/maps?q=Erdemli,%20Mersin&t=&z=13&ie=UTF8&iwloc=&output=embed" loading="lazy" title="Arısoy Metal konum haritası"></iframe></div>
     </div></section>
 <section class="sec quote" style="padding-top:0" id="teklif">
   <div class="container quote-wrap">
@@ -306,7 +324,7 @@ writeFileSync(
         <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Ücretsiz bilgi ve danışmanlık</li>
         <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Yerinde hassas tartım</li>
         <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Kapıda ödeme</li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Mersin'in tüm ilçelerine hizmet</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Mersin sahil hattına hizmet</li>
       </ul>
     </div>
     <div class="form-box reveal">
@@ -317,7 +335,7 @@ writeFileSync(
           <div class="field"><label>Ad Soyad *</label><input type="text" name="ad" placeholder="Adınız Soyadınız" required></div>
           <div class="field"><label>Telefon *</label><input type="tel" name="tel" placeholder="05__ ___ __ __" required></div>
         </div>
-        <div class="field"><label>Adres / İlçe</label><input type="text" name="adres" placeholder="Örn: Akdeniz, Çay Mahallesi"></div>
+        <div class="field"><label>Adres / İlçe</label><input type="text" name="adres" placeholder="Örn: Erdemli, Yeni Mahalle"></div>
         <div class="field"><label>Mesajınız</label><textarea name="mesaj" placeholder="Hurda türü ve miktarı hakkında bilgi verin"></textarea></div>
         <button type="submit" class="btn btn-wa btn-block btn-lg">${WA_ICON} WhatsApp ile Bilgi İste</button>
         <p class="form-note">Bilgileriniz yalnızca size dönüş yapmak için kullanılır, üçüncü kişilerle paylaşılmaz.</p>
@@ -335,7 +353,7 @@ const faqs = [
   ["Hangi hurda türlerini alıyorsunuz?", "Demir-çelik, bakır, alüminyum, kablo, beyaz eşya, klima ve akü hurdası başta olmak üzere tüm metal hurda türlerini değerlendiriyoruz."],
   ["Fiyatlar nasıl belirleniyor?", "Fiyatlar, hurdanın türüne, temizliğine ve o günkü güncel piyasa değerine göre belirlenir. Sabit bir fiyat listemiz yoktur; en güncel fiyatı telefonla veya WhatsApp'tan öğrenebilirsiniz."],
   ["Ödeme nasıl yapılıyor?", "Tartım işlemi tamamlanır tamamlanmaz, anlaşılan tutarı yerinde ve nakit olarak ödüyoruz."],
-  ["Hangi ilçelere hizmet veriyorsunuz?", `Akdeniz merkezli olarak ${DISTRICTS.join(", ")} dahil Mersin'in tüm ilçelerine hizmet veriyoruz.`],
+  ["Hangi bölgelere hizmet veriyorsunuz?", `Erdemli merkezli olarak ${DISTRICTS.join(", ")} dahil Mersin sahil hattına hizmet veriyoruz.`],
   ["Randevu almam gerekiyor mu?", "Evet, bizi arayarak veya WhatsApp'tan yazarak hurdanızın tür ve miktarını iletmeniz yeterli; size en uygun gün ve saati birlikte planlıyoruz."],
   ["Küçük miktarlarda hurda alıyor musunuz?", "Evet, hem bireysel küçük miktarları hem de işletmelerin toplu hurda stoklarını değerlendiriyoruz."],
   ["Beyaz eşya ve klimanın sökümünü siz mi yapıyorsunuz?", "Evet, beyaz eşya ve klima sökümünü ekibimiz üstlenir; siz sadece yerini gösterin."],
@@ -378,16 +396,16 @@ writeFileSync(
   shell({
     slug: "hizmet-bolgelerimiz",
     title: "Hizmet Bölgelerimiz",
-    desc: "Arısoy Metal Geri Dönüşüm Hurdacılık - Akdeniz merkezli, Mersin'in tüm ilçelerinde hurda metal alım hizmeti.",
+    desc: "Arısoy Metal Geri Dönüşüm Hurdacılık - Erdemli merkezli, Mersin sahil hattında hurda metal alım hizmeti.",
     breadcrumb: "Hizmet Bölgeleri",
     heroTitle: "Hizmet Bölgelerimiz",
-    heroDesc: "Akdeniz merkezli ekibimiz, Mersin'in tüm ilçelerinde adrese servis ile hurda alımı yapıyor.",
+    heroDesc: "Erdemli merkezli ekibimiz, Mersin sahil hattında adrese servis ile hurda alımı yapıyor.",
     body: `<section class="sec"><div class="container">
       <div class="content-grid" style="grid-template-columns:1fr">
         <div class="prose reveal">
           <p class="lead">Mersin'in neresinde olursanız olun, ekibimiz randevu sonrası adresinize gelip yerinde tartım yapar ve ödemeyi kapıda gerçekleştirir.</p>
-          <h2>Hizmet Verdiğimiz İlçeler</h2>
-          <p>Akdeniz merkezli olmakla birlikte, ${DISTRICTS.join(", ")} dahil Mersin'in tüm ilçelerinden gelen hurda alım taleplerini değerlendiriyoruz. Uzak ilçelerde toplu/yüksek miktarlı hurdalar için öncelikli randevu ayarlıyoruz.</p>
+          <h2>Hizmet Verdiğimiz Bölgeler</h2>
+          <p>Erdemli merkezli olmakla birlikte, ${DISTRICTS.join(", ")} dahil Mersin sahil hattından gelen hurda alım taleplerini değerlendiriyoruz. Uzak noktalarda toplu/yüksek miktarlı hurdalar için öncelikli randevu ayarlıyoruz.</p>
         </div>
       </div>
       <div class="region-grid reveal" style="margin-top:30px">

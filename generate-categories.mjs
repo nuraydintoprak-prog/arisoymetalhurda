@@ -34,7 +34,7 @@ const CATS = [
     slug: "demir-celik-hurda",
     title: "Demir-Çelik Hurda",
     metaTitle: "Mersin Demir-Çelik Hurda Alımı",
-    desc: "İnşaat demiri, sac, profil, makine ve döküm hurdanızı Akdeniz merkezli ekibimiz yerinde tartıp güncel piyasa fiyatı üzerinden değerlendiriyor.",
+    desc: "İnşaat demiri, sac, profil, makine ve döküm hurdanızı Erdemli merkezli ekibimiz yerinde tartıp güncel piyasa fiyatı üzerinden değerlendiriyor.",
     img: "mersin-demir-celik-hurdasi.avif",
     lead: "Demir-çelik, hurda piyasasının en yüksek hacimli kalemidir; doğru tasnif ve doğru tartım burada da fark yaratır. Arısoy Metal olarak demir-çelik hurdanızı yerinde inceleyip türüne göre en adil fiyatı sunuyoruz.",
     types: [
@@ -51,7 +51,7 @@ const CATS = [
     slug: "bakir-hurda",
     title: "Bakır Hurda",
     metaTitle: "Mersin Bakır Hurda Alımı",
-    desc: "Temiz bakır, kablo bakırı, radyatör ve sarı pirinç hurdanızı Akdeniz merkezli ekibimiz en yüksek güncel fiyattan değerlendiriyor.",
+    desc: "Temiz bakır, kablo bakırı, radyatör ve sarı pirinç hurdanızı Erdemli merkezli ekibimiz en yüksek güncel fiyattan değerlendiriyor.",
     img: "mersin-bakir-hurdasi.avif",
     lead: "Bakır hurdası piyasada en yüksek değere sahip metallerden biridir; bu yüzden doğru sınıflandırma ve doğru tartım büyük fark yaratır. Arısoy Metal olarak bakır hurdanızı yerinde inceleyip türüne göre en adil fiyatı sunuyoruz.",
     types: [
@@ -68,7 +68,7 @@ const CATS = [
     slug: "aluminyum-hurda",
     title: "Alüminyum Hurda",
     metaTitle: "Mersin Alüminyum Hurda Alımı",
-    desc: "Doğrama profili, jant, döküm ve levha alüminyum hurdanızı Akdeniz merkezli ekibimiz her ölçekte yerinde tartıp değerlendiriyor.",
+    desc: "Doğrama profili, jant, döküm ve levha alüminyum hurdanızı Erdemli merkezli ekibimiz her ölçekte yerinde tartıp değerlendiriyor.",
     img: "mersin-aluminyum-hurdasi.avif",
     lead: "Alüminyum, hafifliği ve geri dönüştürülebilirliği sayesinde en çok aranan hurda metallerden biri. Arısoy Metal olarak alüminyum hurdanızı türüne göre ayırıp en adil fiyattan alıyoruz.",
     types: [
@@ -85,7 +85,7 @@ const CATS = [
     slug: "kablo-hurda",
     title: "Kablo Hurda",
     metaTitle: "Mersin Kablo Hurda Alımı",
-    desc: "Elektrik, enerji ve data kablolarınızı içerdiği bakır/alüminyum oranına göre değerlendiriyor, Akdeniz merkezli ekibimizle adresinize geliyoruz.",
+    desc: "Elektrik, enerji ve data kablolarınızı içerdiği bakır/alüminyum oranına göre değerlendiriyor, Erdemli merkezli ekibimizle adresinize geliyoruz.",
     img: "mersin-kablo-hurdasi.avif",
     lead: "Kablo hurdası, içerdiği bakır veya alüminyum oranına göre değerlendirilir. Arısoy Metal olarak her tür ve ölçekte kablo hurdanızı yerinde tartıp adil fiyattan alıyoruz.",
     types: [
@@ -102,7 +102,7 @@ const CATS = [
     slug: "beyaz-esya-hurdasi",
     title: "Beyaz Eşya Hurdası",
     metaTitle: "Mersin Beyaz Eşya Hurdası Alımı",
-    desc: "Buzdolabı, çamaşır makinesi, bulaşık makinesi ve fırınınızı adresinizden alıyor, Akdeniz merkezli ekibimizle kapıda ödeme yapıyoruz.",
+    desc: "Buzdolabı, çamaşır makinesi, bulaşık makinesi ve fırınınızı adresinizden alıyor, Erdemli merkezli ekibimizle kapıda ödeme yapıyoruz.",
     img: "mersin-beyaz-esya.avif",
     lead: "Ömrünü tamamlamış beyaz eşyanız evinizde/işyerinizde yer kaplamasın. Arısoy Metal olarak beyaz eşyanızı adresinizden alıp, içerdiği metal (çelik, bakır, alüminyum) değerine göre öderiz.",
     types: [
@@ -136,7 +136,7 @@ const CATS = [
     slug: "aku-hurdasi",
     title: "Akü Hurdası",
     metaTitle: "Mersin Akü Hurdası Alımı",
-    desc: "Araç, iş makinesi ve UPS akülerinizi kurşun içeriğine göre değerlendirip Akdeniz merkezli ekibimizle yerinde ödeme yapıyoruz.",
+    desc: "Araç, iş makinesi ve UPS akülerinizi kurşun içeriğine göre değerlendirip Erdemli merkezli ekibimizle yerinde ödeme yapıyoruz.",
     img: "mersin-aku-hurdasi.avif",
     lead: "Akü hurdası, içerdiği kurşun ve asit nedeniyle özel bir değerlendirme gerektirir. Arısoy Metal olarak her tür aküyü mevzuata uygun şekilde teslim alıp, kilogram bazında adil fiyattan ödüyoruz.",
     types: [
@@ -178,7 +178,7 @@ function page(cat) {
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${cat.metaTitle} | ${BRAND}</title>
 <meta name="description" content="${cat.desc}">
-<meta name="keywords" content="mersin ${cat.title.toLowerCase()}, akdeniz ${cat.title.toLowerCase()}, arısoy metal, mersin hurdacı">
+<meta name="keywords" content="mersin ${cat.title.toLowerCase()}, erdemli ${cat.title.toLowerCase()}, silifke ${cat.title.toLowerCase()}, kızkalesi ${cat.title.toLowerCase()}, arısoy metal, mersin hurdacı">
 <meta name="author" content="${BRAND}">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#0d3b3e">
@@ -198,8 +198,25 @@ function page(cat) {
 <link rel="stylesheet" href="css/style.css">
 <link rel="preload" as="image" href="img/${cat.img}" fetchpriority="high">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Service","serviceType":"${cat.title} Alımı","provider":{"@type":"RecyclingCenter","name":"${BRAND}","telephone":"${PHONE_TEL}"},"areaServed":"Mersin","url":"${DOMAIN}/${cat.slug}.html"}</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WJBPQXL5');</script>
+<!-- End Google Tag Manager -->
+<script src="https://anticlick.com.tr/anticlick.js"
+  data-key="cf_live_3572d85aca8a8d3811595d76ec7d666716b1"
+  data-campaign="yaz-kampanyasi"
+  data-protect-forms="true"
+  data-protect-gtag="true"
+  async></script>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WJBPQXL5"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <header class="header">
   <div class="container nav">
     <a href="index.html" class="logo" aria-label="Arısoy Metal ana sayfa">
@@ -264,7 +281,7 @@ ${typesList}
     </div>
     <div class="side-card">
       <h4>Hizmet Bölgeleri</h4>
-      <p class="muted" style="font-size:.92rem;margin:0">Akdeniz, Mezitli, Toroslar, Yenişehir, Tarsus, Erdemli, Silifke, Anamur, Mut, Gülnar ve Bozyazı'da hizmetinizdeyiz.</p>
+      <p class="muted" style="font-size:.92rem;margin:0">Çeşmeli, Tömük, Erdemli, Kocahasanlı, Limonlu, Tırtar, Ayaş, Kızkalesi, Susanoğlu, Silifke, Taşucu ve Yeşilovacık'ta hizmetinizdeyiz.</p>
     </div>
   </aside>
     </div></section><div class="container" style="padding-bottom:80px"><div class="cta-band reveal">
@@ -282,7 +299,7 @@ ${typesList}
           <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="#d99a2b" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
           Arısoy <span style="color:#d99a2b">Metal</span>
         </span>
-        <p>Akdeniz merkezli, Mersin'in tüm ilçelerinde güvenilir metal hurda alımı yapıyoruz.</p>
+        <p>Erdemli merkezli, Mersin sahil hattında güvenilir metal hurda alımı yapıyoruz.</p>
         <div class="f-soc">
           <a href="https://wa.me/${WA}" aria-label="WhatsApp" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 00-8.6 15l-1.3 4.9 5-1.3A10 10 0 1012 2zm5.8 14.2c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.1-1.9-.1-.4-.1-1-.3-1.8-.6-3-1.3-5-4.4-5.1-4.6-.2-.2-1.3-1.7-1.3-3.2s.8-2.3 1-2.6c.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .7.5l.9 2.1c.1.2.1.4 0 .6l-.4.6-.4.4c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.6-.1l.9-1c.2-.2.4-.2.6-.1l2 1c.3.1.5.2.5.3.1.2.1.9-.1 1.6z"/></svg></a>
           <a href="tel:${PHONE_TEL}" aria-label="Telefon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6A19.8 19.8 0 012 4.2 2 2 0 014 2h3a2 2 0 012 1.7c.1 1 .4 2 .7 2.9a2 2 0 01-.4 2.1L8 10a16 16 0 006 6l1.3-1.3a2 2 0 012.1-.4c1 .3 1.9.6 2.9.7A2 2 0 0122 16.9z"/></svg></a>
@@ -308,7 +325,7 @@ ${typesList}
       <div>
         <h4>İletişim</h4>
         <ul class="f-contact">
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg><span>Çankaya Mah. Gazi Mustafa Kemal Bulvarı No:150, Akdeniz / Mersin</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg><span>Sahil Caddesi No:150, Erdemli / Mersin</span></li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6A19.8 19.8 0 012 4.2 2 2 0 014 2h3a2 2 0 012 1.7c.1 1 .4 2 .7 2.9a2 2 0 01-.4 2.1L8 10a16 16 0 006 6l1.3-1.3a2 2 0 012.1-.4c1 .3 1.9.6 2.9.7A2 2 0 0122 16.9z"/></svg><a href="tel:${PHONE_TEL}">${PHONE_DISPLAY}</a></li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 6l10 7 10-7"/></svg><a href="mailto:info@arisoymetalhurda.com.tr">info@arisoymetalhurda.com.tr</a></li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Her gün 08:00 - 20:00</span></li>
@@ -322,6 +339,7 @@ ${typesList}
         <a href="gizlilik-politikasi.html">Gizlilik Politikası</a>
         <a href="cerez-politikasi.html">Çerez Politikası</a>
         <a href="kullanim-sartlari.html">Kullanım Şartları</a>
+        <a href="https://sponsorlureklam.com.tr" target="_blank" rel="noopener">by sponsorlureklam.com.tr</a>
       </span>
     </div>
   </div>
