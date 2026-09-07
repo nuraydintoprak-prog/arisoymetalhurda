@@ -62,6 +62,8 @@ function shell({ slug, title, desc, breadcrumb, heroTitle, heroDesc, body, extra
 <link rel="manifest" href="site.webmanifest">
 <link rel="preload" href="fonts/poppins-latin-ext-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/poppins-latin-ext-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preconnect" href="https://anticlick.com.tr">
+<link rel="preconnect" href="https://www.googletagmanager.com">
 <link rel="preload" as="image" href="img/arisoy-logo.avif" fetchpriority="high">
 <link rel="preload" href="css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="css/style.css"></noscript>
@@ -87,7 +89,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <header class="header">
   <div class="container nav">
     <a href="index.html" class="logo" aria-label="Arısoy Hurda Metal ana sayfa">
-      <img src="img/arisoy-logo.avif" alt="Arısoy Hurda Metal" width="900" height="210">
+      <img src="img/arisoy-logo.avif" alt="Arısoy Hurda Metal" width="700" height="163">
     </a>
     <ul class="menu">
       <li><a href="index.html">Anasayfa</a></li>
